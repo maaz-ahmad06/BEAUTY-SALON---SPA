@@ -350,6 +350,8 @@ p {
     font-size: 1.5rem;
     cursor: pointer;
     transition: var(--transition-smooth);
+    position: relative;
+    z-index: 1001;
 }
 
 #menu-toggle:hover {
